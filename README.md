@@ -1,2 +1,4 @@
-# node-js-cluster
-Node JS cluster with PM2, RabbitMQ, Redis Cache and Nginx as a Reverse proxy and load balancer
+clone<br>
+npm i<br>
+node server.js<br>
+go to: http://localhost:3000/?number=30<br>
