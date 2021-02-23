@@ -4,11 +4,16 @@ npm i
 node server.js
 
 ```
-go to: http://localhost:3000/?number=30<br>
+go to<br>
+[http://localhost:3000/?number=30](http://localhost:3000/?number=30)<br>
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
 [artillery](npm i artillery)<br>
 [artillery eco](https://ecologi.com/artilleryio)<br>
-npm install nodemon --save-dev<br>
+
+```bash
+npm install nodemon --save-dev
+```
+
 Add in package.json:<br>
 
 ```json
@@ -18,8 +23,26 @@ Add in package.json:<br>
 }
 ```
 
-run: npm start<br>
-new terminal: sudo npm install -g loadtest<br>
-run: loadtest -n 1000 -c 100 --rps 200 http://localhost:3000?number=20<br>
-update npm: add "package": "\*" then run $npm update --save<br>
-sudo npm install -g artillery<br>
+run
+```bash
+npm start
+```
+
+new terminal to get a report
+```bash
+sudo npm install -g loadtest
+loadtest -n 1000 -c 100 --rps 200 http://localhost:3000?number=20
+```
+
+new terminal, install artillery
+```bash
+sudo npm install -g artillery
+```
+run the artillery test, get a report<br>
+
+How to update npm<br>
+add "package": "\*" to package.json<br>
+then run 
+```bash
+npm update --save
+```
