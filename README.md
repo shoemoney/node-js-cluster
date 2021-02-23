@@ -1,6 +1,6 @@
 clone<br>
-```sh
-npm i<br>
+```bash
+npm i
 node server.js
 
 ```
