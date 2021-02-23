@@ -11,7 +11,7 @@ install loadtest, artillery and nodemon<br>
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
 [artillery](https://www.npmjs.com/package/artillery)<br>
 [artillery eco](https://ecologi.com/artilleryio)<br>
-
+[nodemon](https://www.npmjs.com/package/nodemon)
 ```bash
 npm install nodemon --save-dev
 ```
