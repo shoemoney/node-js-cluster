@@ -1,4 +1,4 @@
-clone and run<br>
+## 1 clone and run<br>
 ```bash
 npm i
 node server.js
@@ -7,7 +7,7 @@ node server.js
 check, browse to<br>
 [http://localhost:3000/?number=30](http://localhost:3000/?number=30)<br>
 <br>
-install loadtest, artillery and nodemon<br>
+## 2 install loadtest, artillery and nodemon<br>
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
 [artillery](https://www.npmjs.com/package/artillery)<br>
 [artillery eco](https://ecologi.com/artilleryio)<br>
@@ -24,7 +24,8 @@ add in package.json<br>
 }
 ```
 
-run the scripts with
+## 3 get load test reports
+run
 ```bash
 npm start
 ```
