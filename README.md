@@ -6,6 +6,8 @@ node server.js
 ```
 go to<br>
 [http://localhost:3000/?number=30](http://localhost:3000/?number=30)<br>
+<br>
+install loadtest, artillery and nodemon
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
 [artillery](https://www.npmjs.com/package/artillery)<br>
 [artillery eco](https://ecologi.com/artilleryio)<br>
@@ -13,7 +15,6 @@ go to<br>
 ```bash
 npm install nodemon --save-dev
 ```
-
 add in package.json<br>
 
 ```json
@@ -23,7 +24,7 @@ add in package.json<br>
 }
 ```
 
-run
+run the scripts with
 ```bash
 npm start
 ```
