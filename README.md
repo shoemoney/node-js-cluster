@@ -4,10 +4,10 @@ npm i
 node server.js
 
 ```
-go to<br>
+check, browse to<br>
 [http://localhost:3000/?number=30](http://localhost:3000/?number=30)<br>
 <br>
-install loadtest, artillery and nodemon
+install loadtest, artillery and nodemon<br>
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
 [artillery](https://www.npmjs.com/package/artillery)<br>
 [artillery eco](https://ecologi.com/artilleryio)<br>
