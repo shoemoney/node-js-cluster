@@ -40,9 +40,9 @@ new terminal, install artillery
 ```bash
 sudo npm install -g artillery
 ```
-run the artillery test, get a load test report.<br>
+run the artillery test, get a load test report<br>
 
-How to update npm<br>
+optional: update packages<br>
 add to package.json
 ```bash
 "package": "\*"
