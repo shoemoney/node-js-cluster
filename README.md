@@ -7,7 +7,7 @@ node server.js
 go to<br>
 [http://localhost:3000/?number=30](http://localhost:3000/?number=30)<br>
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
-[artillery](npm i artillery)<br>
+[artillery](https://www.npmjs.com/package/artillery)<br>
 [artillery eco](https://ecologi.com/artilleryio)<br>
 
 ```bash
@@ -38,7 +38,7 @@ new terminal, install artillery
 ```bash
 sudo npm install -g artillery
 ```
-run the artillery test, get a report<br>
+run the artillery test, get a load test report<br>
 
 How to update npm<br>
 add "package": "\*" to package.json<br>
