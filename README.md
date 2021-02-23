@@ -1,6 +1,9 @@
 clone<br>
+```sh
 npm i<br>
-node server.js<br>
+node server.js
+
+```
 go to: http://localhost:3000/?number=30<br>
 [loadtest](https://www.npmjs.com/package/loadtest)<br>
 [artillery](npm i artillery)<br>
