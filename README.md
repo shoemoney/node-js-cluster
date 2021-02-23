@@ -42,7 +42,7 @@ sudo npm install -g artillery
 ```
 run the artillery test, get a load test report<br>
 
-optional: update packages<br>
+## 4 optional: update npm package version<br>
 add to package.json
 ```bash
 "package": "\*"
